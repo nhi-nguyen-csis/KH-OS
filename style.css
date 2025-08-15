@@ -41,11 +41,28 @@ body {
   mix-blend-mode: multiply;
 }
 
-.custom-sticky-header{
+.custom-sticky-header {
   position: sticky;
   top: 0;
   padding: 10px 16px;
   background: white;
   color: #f1f1f1;
   z-index: 13;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.custom-block-animation {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
