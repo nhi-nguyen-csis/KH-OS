@@ -11,9 +11,6 @@ body {
   z-index: 1030;
 }
 
-.gray-background {
-  background-color: #f8f9fa;
-}
 .gradient-background {
   background: linear-gradient(rgb(242, 179, 57) 10%, rgb(237, 124, 19) 100%);
   min-height: 20vh;
