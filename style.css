@@ -1,6 +1,10 @@
-body {
+:lang(en) {
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif !important;
+}
+
+:lang(vi) {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .fixed-top {
@@ -62,4 +66,78 @@ body {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+}
+
+#address {
+  background-color: #f1f1f1;
+  padding: 3rem;
+  text-align: center;
+}
+
+#address > iframe {
+  width: 98%;
+  height: 400px;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.language-switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 36px;
+}
+
+.language-checkbox {
+  display: none;
+}
+
+.language-label {
+  display: block;
+  background: #ccc;
+  border-radius: 36px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  height: 100%;
+}
+
+.language-label .lang-en,
+.language-label .lang-vi {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  text-align: center;
+  pointer-events: none;
+}
+
+.language-label .lang-en {
+  left: 0;
+}
+
+.language-label .lang-vi {
+  right: 0;
+}
+
+.switch-ball {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.language-checkbox:checked + .language-label .switch-ball {
+  transform: translateX(44px);
+}
+
+.language-checkbox:checked + .language-label {
+  background: #212529bf;
 }

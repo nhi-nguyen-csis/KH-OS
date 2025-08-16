@@ -26,20 +26,21 @@
                             <path
                                 d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
                         </svg>
-                        Home
+                        <span data-en="Home" data-vi="Trang Chủ">Home</span>
                     </a>
                 </li>
                 <li> <a href="#products" class="nav-link text-black">
                         <img src="./images/product-icon.svg" width="24" height="24" fill="currentColor"
                             class="bi d-block mx-auto mb-1">
-                        Products
+                        <span data-en="Products" data-vi="Sản phẩm">Products</span>
                     </a> </li>
                 <li> <a href="#brands" class="nav-link text-black">
                         <svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             fill="currentColor" class="bi bi-ubuntu" viewBox="0 0 16 16">
                             <path
                                 d="M2.273 9.53a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.547Zm9.467-4.984a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546M7.4 13.108a5.54 5.54 0 0 1-3.775-2.88 3.27 3.27 0 0 1-1.944.24 7.4 7.4 0 0 0 5.328 4.465c.53.113 1.072.169 1.614.166a3.25 3.25 0 0 1-.666-1.9 6 6 0 0 1-.557-.091m3.828 2.285a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546m3.163-3.108a7.44 7.44 0 0 0 .373-8.726 3.3 3.3 0 0 1-1.278 1.498 5.57 5.57 0 0 1-.183 5.535 3.26 3.26 0 0 1 1.088 1.693M2.098 3.998a3.3 3.3 0 0 1 1.897.486 5.54 5.54 0 0 1 4.464-2.388c.037-.67.277-1.313.69-1.843a7.47 7.47 0 0 0-7.051 3.745" />
-                        </svg>Brands
+                        </svg>
+                        <span data-en="Brands" data-vi="Thương hiệu">Brands</span>
                     </a> </li>
                 <li> <a href="#customer-support" class="nav-link text-black">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -47,10 +48,20 @@
                             <path
                                 d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
                         </svg>
-                        Support
+
+                        <span data-en="Support" data-vi="Hỗ trợ">Support</span>
                     </a> </li>
             </ul>
+            <div class="language-switch">
+                <input type="checkbox" id="lang-toggle" class="language-checkbox">
+                <label for="lang-toggle" class="language-label">
+                    <span class="lang-en">EN</span>
+                    <span class="lang-vi">VI</span>
+                    <div class="switch-ball"></div>
+                </label>
+            </div>
         </div>
+
     </div>
 
     <div class="px-4 py-5 gradient-background">
@@ -60,16 +71,29 @@
                     alt="eyeglasses" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
-                <h1 class="display-2 fw-bold text-white lh-1 mb-3">See the World in Perfect Clarity</h1>
-                <p class="lead text-white">Discover stylish frames, premium lenses, and expert eye care</span> — all in
+                <h1 class="display-2 fw-bold text-white lh-1 mb-3" data-en="See the World in Perfect Clarity"
+                    data-vi="Nhìn Thế Giới Rõ Nét Hoàn Hảo">See the
+                    World in Perfect Clarity</h1>
+                <p class="lead text-white"
+                    data-en="Discover stylish frames, premium lenses, and expert eye care — all in one place."
+                    data-vi="Khám phá gọng kính thời trang, tròng kính cao cấp và dịch vụ chăm sóc mắt chuyên nghiệp — một điểm đến cho tất cả nhu cầu về mắt kính của bạn.">
+                    Discover stylish frames, premium lenses, and expert eye care</span> — all in
                     one place.</p>
-                <p class="lead text-white">From timeless classics to modern designs, our curated collection ensures the
+                <p class="lead text-white"
+                    data-en="From timeless classics to modern designs, our curated collection ensures the perfect pair for your style and vision."
+                    data-vi="Từ những thiết kế kinh điển đến phong cách hiện đại, bộ sưu tập được chọn lọc kỹ lưỡng của chúng tôi đảm bảo bạn tìm được cặp kính hoàn hảo cho phong cách và tầm nhìn của mình.">
+                    From timeless classics to modern designs, our curated collection ensures the
                     perfect pair for your style and vision.</p>
-                <p class="lead text-white">Serving kids to grandparents since 2009 with friendly advice, affordable
+                <p class="lead text-white"
+                    data-en="Serving kids to grandparents since 2009 with friendly advice, affordable choices, and a smile."
+                    data-vi="Phục vụ khách hàng từ năm 2009 với những lời khuyên thân thiện, lựa chọn hợp túi tiền và nụ cười luôn trên môi.">
+                    Serving kids to grandparents since 2009 with friendly advice, affordable
                     choices, and a smile.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
-                        class="btn btn-light btn-lg px-4 me-md-2">Shop Eyewear</button> <button type="button"
-                        class="btn btn-dark btn-lg px-4">Book an Eye Exam</button> </div>
+                        class="btn btn-light btn-lg px-4 me-md-2" data-en="Shop Eyewear"
+                        data-vi="Khám Phá Bộ Sưu Tập Kính">Shop Eyewear</button> <button type="button"
+                        class="btn btn-dark btn-lg px-4" data-en="Book an Eye Exam" data-vi="Đặt Lịch Khám Mắt">Book an
+                        Eye Exam</button> </div>
             </div>
         </div>
     </div>
@@ -79,8 +103,10 @@
         <div
             class="custom-block-animation bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">Stylish Frames</h2>
-                <p class="lead">Find the perfect frames for every style and face shape.</p>
+                <h2 class="display-5" data-en="Stylish Frames" data-vi="Gọng Kính Thời Thượng">Stylish Frames</h2>
+                <p class="lead" data-en="Find the perfect frames for every style and face shape."
+                    data-vi="Tìm gọng kính hoàn hảo phù hợp với mọi phong cách và khuôn mặt.">Find the perfect frames
+                    for every style and face shape.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
                 <img src="https://plus.unsplash.com/premium_photo-1661288488124-9baded1a1335?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGV5ZWdsYXNzfGVufDB8fDB8fHww"
@@ -92,8 +118,10 @@
         <div
             class="custom-block-animation bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Premium Lenses</h2>
-                <p class="lead">Protect your eyes with lenses designed for clarity and comfort.</p>
+                <h2 class="display-5" data-en="Premium Lenses" data-vi="Tròng Kính Cao Cấp">Premium Lenses</h2>
+                <p class="lead" data-en="Protect your eyes with lenses designed for clarity and comfort."
+                    data-vi="Bảo vệ đôi mắt của bạn với tròng kính thiết kế mang lại sự rõ nét và thoải mái.">Protect
+                    your eyes with lenses designed for clarity and comfort.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
                 <img src="https://images.unsplash.com/photo-1701447428494-af7a13fc62e7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGV5ZWdsYXNzfGVufDB8fDB8fHww"
@@ -105,8 +133,11 @@
         <div
             class="custom-block-animation bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Expert Eye Care</h2>
-                <p class="lead">Comprehensive eye exams and professional advice you can trust.</p>
+                <h2 class="display-5" data-en="Expert Eye Care" data-vi="Chăm Sóc Mắt Chuyên Nghiệp">Expert Eye Care
+                </h2>
+                <p class="lead" data-en="Comprehensive eye exams and professional advice you can trust."
+                    data-vi="Khám mắt toàn diện và tư vấn chuyên môn bạn có thể tin cậy.">Comprehensive eye exams and
+                    professional advice you can trust.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
                 <img src="https://plus.unsplash.com/premium_photo-1683543124406-ff29013727f2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGV5ZWdsYXNzfGVufDB8fDB8fHww"
@@ -117,22 +148,26 @@
     </div>
 
     <div class="container px-2 py-5" id="brands">
-        <h2 class="pt-2 border-bottom">Authorized Brand Distributors</h2>
+        <h2 class="pt-2 border-bottom" data-en="Authorized Brand Distributors"
+            data-vi="Nhà Phân Phối Thương Hiệu Chính Thức">Authorized Brand Distributors</h2>
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
             <div class="col d-flex flex-column align-items-start gap-3">
-                <h2 class="fw-bold text-body-emphasis">Proudly Offering Top Optical Brands</h2>
-                <!-- <p class="text-body-secondary">
-                    Our store is an authorized distributor of multiple premium eyewear brands. We provide genuine
-                    products, expert guidance, and high-quality lenses for every style and vision need.
-                </p>
-                <a href="#brands" class="btn btn-primary btn-lg">Explore Our Brands</a> -->
+                <h2 class="fw-bold text-body-emphasis" data-en="Proudly Offering Top Optical Brands"
+                    data-vi="Tự Hào Cung Cấp Các Thương Hiệu Kính Mắt Hàng Đầu">Proudly Offering Top Optical Brands</h2>
                 <p class="text-body-secondary">
-                    We are proud to be an official distributor for <strong>101 Eyewear</strong>, a trusted provider of
-                    premium eyewear brands from around the world. Their collection features stylish frames, advanced
-                    lenses, and exclusive designs to meet every customer’s vision and fashion needs.
+                    <span data-en="We are proud to be an official distributor for"
+                        data-vi="Chúng tôi tự hào là nhà phân phối chính thức của">We are proud to be an official
+                        distributor for</span> <strong>101 Eyewear</strong>,
+                    <span
+                        data-en="a trusted provider of premium eyewear brands from around the world. Their collection features stylish frames, advanced lenses, and exclusive designs to meet every customer’s vision and fashion needs."
+                        data-vi="một nhà cung cấp đáng tin cậy các thương hiệu kính cao cấp từ khắp nơi trên thế giới. Bộ sưu tập của họ bao gồm các gọng kính thời thượng, tròng kính tiên tiến và các thiết kế độc quyền để đáp ứng nhu cầu về thị giác và phong cách của mọi khách hàng.">
+                        a trusted provider of premium eyewear brands from around the world. Their collection features
+                        stylish frames, advanced lenses, and exclusive designs to meet every customer’s vision and
+                        fashion needs.
+                    </span>
                 </p>
                 <a href="https://101eyewear.com/san-pham-phan-phoi-688/Mat-Kinh-Kim-Hoang/#" target="_blank"
-                    class="btn btn-dark btn-lg px-4">
+                    class="btn btn-dark btn-lg px-4" data-en="Visit 101 Eyewear" data-vi="Khám phá 101 Eyewear">
                     Visit 101 Eyewear
                 </a>
 
@@ -141,32 +176,40 @@
                 <div class="row row-cols-1 row-cols-sm-2 g-4">
                     <div class="col d-flex flex-column gap-2">
                         <img src="https://101eyewear.com/images/icon/product_category_s347.png"
-                            style="width:100%; height:100%; object-fit: cover;">
-                        <p class="text-body-secondary">
+                            style="width:100%; height:100%; object-fit: cover;" alt="Mito">
+                        <p class="text-body-secondary" data-en="Mito: Stylish frames with superior craftsmanship and modern designs, perfect for everyday
+                            wear and fashion-conscious customers." data-vi=" Mito: Gọng kính thời thượng với tay nghề chế tác tinh xảo và thiết kế hiện đại, hoàn hảo cho
+                            việc sử dụng hàng ngày và những khách hàng yêu thích phong cách.">
                             Mito: Stylish frames with superior craftsmanship and modern designs, perfect for everyday
                             wear and fashion-conscious customers.
                         </p>
                     </div>
                     <div class="col d-flex flex-column gap-2">
                         <img src="https://101eyewear.com/images/icon/product_category_s337.png"
-                            style="width:100%; height:100%; object-fit: cover;">
-                        <p class="text-body-secondary">
+                            style="width:100%; height:100%; object-fit: cover;" alt="NBA Sunglasses">
+                        <p class="text-body-secondary" data-en=" NBA Sunglasses: Officially licensed NBA shades crafted for fans, featuring designs from all
+                            30 teams for a bold, stylish look anywhere you go." data-vi="Kính Mát NBA: Kính NBA được cấp phép chính thức dành cho người hâm mộ, với thiết kế từ tất
+                            cả 30 đội bóng, mang đến vẻ ngoài nổi bật và thời thượng cho bạn.">
                             NBA Sunglasses: Officially licensed NBA shades crafted for fans, featuring designs from all
                             30 teams for a bold, stylish look anywhere you go.
                         </p>
                     </div>
                     <div class="col d-flex flex-column gap-2">
                         <img src="https://101eyewear.com/images/icon/product_category_s335.jpg"
-                            style="width:100%; height:100%; object-fit: cover;">
-                        <p class="text-body-secondary">
+                            style="width:100%; height:100%; object-fit: cover;" alt="ExFash Eyeware">
+                        <p class="text-body-secondary" data-en=" ExFash Eyewear: Premium Korean frames and sunglasses combining high-quality materials with
+                            elegant designs suitable for all occasions." data-vi="ExFash Eyewear: Gọng kính và kính mát Hàn Quốc cao cấp, kết hợp vật liệu chất lượng với
+                            thiết kế thanh lịch, phù hợp cho mọi dịp.">
                             ExFash Eyewear: Premium Korean frames and sunglasses combining high-quality materials with
                             elegant designs suitable for all occasions.
                         </p>
                     </div>
                     <div class="col d-flex flex-column gap-2">
                         <img src="https://101eyewear.com/images/icon/product_category_s349.jpg"
-                            style="width:100%; height:100%; object-fit: cover;">
-                        <p class="text-body-secondary">
+                            style="width:100%; height:100%; object-fit: cover;" alt="Face2Face Eyewear">
+                        <p class="text-body-secondary" data-en="Face2Face Eyewear: Handmade French and Italian frames designed by renowned architects,
+                            merging artistic style with exceptional quality and comfort." data-vi="Face2Face Eyewear: Gọng kính Pháp và Ý thủ công, được thiết kế bởi các kiến trúc sư nổi
+                            tiếng, kết hợp phong cách nghệ thuật, chất lượng và sự thoải mái.">
                             Face2Face Eyewear: Handmade French and Italian frames designed by renowned architects,
                             merging artistic style with exceptional quality and comfort.
                         </p>
@@ -178,21 +221,28 @@
 
     <div class="gradient-background overflow-hidden p-3 p-md-2 text-center bg-body-tertiary" id="customer-support">
         <div class="col-md-6 p-lg-5 mx-auto my-2 text-white">
-            <h1 class="display-5 fw-bold text-white lh-1 mb-3">Kim Hoang Optical Store</h1>
-            <h5 class="text-body-tertiary fw-normal mb-3">357 Quang Trung, Tran Hung Dao Ward, Quang Ngai, Vietnam</h5>
-            <h5 class="text-body-tertiary fw-normal mb-3">Store Hours: Mon–Sun | 7:00 AM – 9:00 PM</h5>
-            <h5 class="text-body-tertiary fw-normal mb-3">Phone: +84 255 6500 357</h5>
+            <h1 class="display-5 fw-bold text-white lh-1 mb-3" data-en="Kim Hoang Optical Store"
+                data-vi="Hiệu Kính Kim Hoàng">Kim Hoang Optical Store</h1>
+            <h5 class="text-body-tertiary fw-normal mb-3"
+                data-en="357 Quang Trung, Tran Hung Dao Ward, Quang Ngai, Vietnam" data-vi="357, Quang Trung, P. Trần Hưng Đạo, Thành phố Quảng Ngãi, Viet
+                Nam">357 Quang Trung, Tran Hung Dao Ward, Quang Ngai, Vietnam</h5>
+            <h5 class="text-body-tertiary fw-normal mb-3" data-en="Store Hours: Mon–Sun | 7:00 AM – 9:00 PM"
+                data-vi="Giờ mở cửa: Thứ Hai–Chủ Nhật | 7:00 Sáng – 9:00 Tối">Store Hours: Mon–Sun | 7:00 AM – 9:00 PM
+            </h5>
+            <h5 class="text-body-tertiary fw-normal mb-3"><span data-en="Phone" data-vi="Điện thoại">Phone</span>: +84
+                948 340 357</h5>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
 
-    <div style="width: 100%; height: 400px; margin: 0 auto" id="address">
+    <div id="address">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3851.6303514302544!2d108.80120011069474!3d15.1236880639953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3169ad2d91e05ca5%3A0xea66aa75671ac974!2zSGnhu4d1IEvDrW5oIEtpbSBIb8Ogbmc!5e0!3m2!1sen!2sus!4v1755304471416!5m2!1sen!2sus"
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </div>
+
 
     <div>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 my-4">
@@ -200,9 +250,11 @@
                     class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
                     <img src="./images/logo.png" class="logo bi" width="170" height="110" role="img"></a> <span
                     class="mb-3 mb-md-0 text-body-secondary">
-                    <p>Indulging in designer
+                    <p data-en="Indulging in designer frames and cutting-edge lens technology, curated to elevate both your vision and your look."
+                        data-vi="Trải nghiệm những gọng kính thiết kế sang trọng cùng công nghệ tròng kính hiện đại, mang đến cả tầm nhìn rõ nét lẫn phong cách đẳng cấp.">
+                        Indulging in designer
                         frames and cutting-edge lens technology, curated to elevate both your vision and your look.</p>
-                    <p>© 2009-<span id="current-year"></span>. All rights reserved.</p>
+                    <p>© 2009-<span id="current-year"></span>. <span data-en="All rights reserved." data-vi="Bản quyền được bảo lưu">All rights reserved.</span></p>
                 </span></div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram">
@@ -243,9 +295,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
-    <script>
-        document.getElementById('current-year').textContent = new Date().getFullYear()
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
